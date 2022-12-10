@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string name;
+    int date;
+    char entry;
+    char expense;
+
+    cin>>name;
+    cin>>date;
+    cin>>entry;
+    cin>>expense;
+
+    cout<<"Event name :"<<name<<endl;
+    cout<<"Event date :"<<date<<endl;
+    cout<<"Entry :"<<entry<<endl;
+    cout<<"Expense :"<<expense<<endl;
+
+}
